@@ -41,7 +41,7 @@ This is a simple project. You can use any server to serve up the html pages. Onc
 
 2.This is Brands Page
 
-![image](product page)
+![image](product page.jpg)
 
 3.This is Sign-up and Sign IN Page
 
