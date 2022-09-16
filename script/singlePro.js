@@ -73,6 +73,7 @@ const appendPro = ({currentSku:{skuImages,alternateImages,listPrice,size},brand,
         };
         arr.push(obj);
         localStorage.setItem("cart",JSON.stringify(arr));
+        window.alert("Product is added to cart!");
     });
     let fav = document.createElement("span");
     fav.setAttribute("class","material-icons");

@@ -159,7 +159,8 @@ section div {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-@media all and (min-width: 421px) and (max-width: 720px) {
+/* @media all and (min-width: 421px) and (max-width: 720px) { */
+@media screen and (max-width: 720px) {
   #newBlock {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -180,6 +181,72 @@ section div {
   }
   #hotgrid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  #landProd{
+    flex-direction: column;
+  }
+  #landProd>div {
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    
+  }
+  /* #video-frame{
+    text-align: center;
+
+  } */
+  #video{
+    width: 500px;
+    height: 300px;
+    margin-left: 10px;
+    
+  }
+  .slidWindow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-left: -100px; */
+    
+  }
+  .innerDiv {
+    /* width: 150%; */
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
+    width: 100%;
+    /* background-color: #bba7a7; */
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .card {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: none;
+  }
+  .card img {
+    /* width: 100%; */
+    max-height: 60%;
+  }
+  
+  .lr-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left,
+  .right {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: #e72e98;
+    cursor: pointer;
   }
 }
 

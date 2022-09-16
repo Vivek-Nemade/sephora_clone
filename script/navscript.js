@@ -9,6 +9,10 @@ let register = async (e) => {
 		mobile: document.getElementById("mobile1").value,
 		description: "xyz",
 	};
+	if(!form_data.name || !form_data.email || !form_data.password || !form_data.username || !form_data.mobile){
+        alert('Please fill all the required fields')
+        return;
+    }
 
 	// console.log(form_data);
 	form_data = JSON.stringify(form_data);
@@ -27,7 +31,15 @@ let register = async (e) => {
 
 	let data = await res.json();
 	console.log(data);
-	window.location.href = "./index.html";
+	if(data.error==true){
+        alert('Registration failed, user already exists')
+        return
+    }
+    else{
+        
+        window.location.href= "./login.html";
+    }
+	// window.location.href = "./index.html";
 };
 
 document.getElementById("submit2").addEventListener("click", register);
@@ -38,6 +50,10 @@ let login = async () => {
 		username: document.getElementById("username").value,
 		password: document.getElementById("password").value,
 	};
+	if(!user_data.password || !user_data.username){
+        alert('Please fill all the required fields')
+        return;
+    }
 
 	user_data = JSON.stringify(user_data);
 
