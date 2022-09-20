@@ -159,8 +159,8 @@ section div {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-/* @media all and (min-width: 421px) and (max-width: 720px) { */
-@media screen and (max-width: 720px) {
+
+/* @media screen and (max-width: 720px) {
   #newBlock {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -191,14 +191,143 @@ section div {
     cursor: pointer;
     
   }
+  #video{
+    width: 500px;
+    height: 300px;
+    margin-left: 10px;
+    
+  }
+  .slidWindow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+  }
+  .innerDiv {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .card {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: none;
+  }
+  .card img {
+    
+    max-height: 60%;
+  }
+  
+  .lr-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left,
+  .right {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: #e72e98;
+    cursor: pointer;
+  }
+} */
+@media screen and (max-width: 720px) {
+  #carouselExampleIndicators{
+    width: 100%;
+    margin-top: -50px;
+  }
+  .carousel-item img {
+    height: 200px;
+  }
+  #newBlock {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #btn {
+    width: 100px;
+    padding: auto;
+  }
+  #btn button {
+    width: 50%;
+    padding: auto;
+  }
+  #subscribe {
+    width: 60%;
+    height: 160px;
+  }
+  #brand_prod {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #hotgrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #landProd{
+    flex-direction: column;
+  }
+  #landProd>div {
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    margin: auto;
+    
+  }
+  h5{
+    text-align: center;
+  }
+  #input_div {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  #input_div input {
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    margin-right: 0;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  #input_div button {
+    height: 50px;
+    width: 30%;
+    margin-left: -4px;
+    padding: 10px;
+    border: none;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+  }
+  #text_Div {
+    margin-top: 10%;
+    
+  }
   /* #video-frame{
     text-align: center;
 
   } */
   #video{
-    width: 500px;
+    width: 100%;
     height: 300px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     
   }
   .slidWindow {
@@ -215,6 +344,141 @@ section div {
     margin-right: 20px;
     height: 400px;
     width: 100%;
+    text-align: center;
+    /* background-color: #bba7a7; */
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .card {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: none;
+  }
+  .card img {
+    /* width: 100%; */
+    max-height: 60%;
+  }
+  
+  .lr-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left,
+  .right {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: #e72e98;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 720px) {
+  #carouselExampleIndicators{
+    width: 100%;
+    margin-top: -50px;
+  }
+  .carousel-item img {
+    height: 200px;
+  }
+  #newBlock {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #btn {
+    width: 100px;
+    padding: auto;
+  }
+  #btn button {
+    width: 50%;
+    padding: auto;
+  }
+  #subscribe {
+    width: 60%;
+    height: 160px;
+  }
+  #brand_prod {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #hotgrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #landProd{
+    flex-direction: column;
+  }
+  #landProd>div {
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    margin: auto;
+    
+  }
+  h5{
+    text-align: center;
+  }
+  #input_div {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  #input_div input {
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    margin-right: 0;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  #input_div button {
+    height: 50px;
+    width: 30%;
+    margin-left: -4px;
+    padding: 10px;
+    border: none;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+  }
+  #text_Div {
+    margin-top: 10%;
+    
+  }
+  /* #video-frame{
+    text-align: center;
+
+  } */
+  #video{
+    width: 100%;
+    height: 300px;
+    /* margin-left: 10px; */
+    
+  }
+  .slidWindow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-left: -100px; */
+    
+  }
+  .innerDiv {
+    /* width: 150%; */
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
+    width: 100%;
+    text-align: center;
     /* background-color: #bba7a7; */
     display: flex;
     justify-content: space-around;
