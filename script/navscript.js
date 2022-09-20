@@ -37,7 +37,8 @@ let register = async (e) => {
     }
     else{
         
-        window.location.href= "./login.html";
+//         window.location.href= "./login.html";
+	    window.location.href = "./index.html";
     }
 	// window.location.href = "./index.html";
 };
