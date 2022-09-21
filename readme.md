@@ -1,4 +1,5 @@
-# Sephora Clone [ Collaborative Project ]
+# Sephora Clone [ Collaborative Project <img width="30px" margin-bottom="-10px" src="https://cdn-icons-png.flaticon.com/512/6213/6213303.png"/> ]
+
 
 Sephora is a French multinational retailer of personal care and beauty products. Featuring nearly 340 brands, along with its own private label, Sephora Collection, Sephora offers beauty products including cosmetics, skincare, body, fragrance, nail color, beauty tools, body lotions and haircare. 
 
@@ -21,7 +22,7 @@ AS part of unit 2 construct week we cloned the frontend of sephora.com to the be
    <img src="https://img.icons8.com/color/64/000000/javascript.png"/>
    <img src="https://img.icons8.com/color/64/000000/html-5.png"/>
    <img src="https://img.icons8.com/color/64/000000/css3.png" />
-   <img src=""/>
+   
 </p>
 
 ## Features:
