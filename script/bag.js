@@ -7,6 +7,10 @@
 // 	// let price =
 // 	console.log(qty2);
 // }
+let name2 = localStorage.getItem("accountName");
+
+console.log(document.getElementById("logname").innerText);
+document.getElementById("logname").innerText = name2 || "Login";
 
 
 
