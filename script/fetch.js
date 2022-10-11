@@ -4,7 +4,8 @@ const searchPro = (query) => {
         method: 'GET',
         headers: {
             'X-RapidAPI-Host': 'sephora.p.rapidapi.com',
-            'X-RapidAPI-Key': 'f61a0d4d26msh294da13f36ec372p1cf486jsn8bdd561d2abf'
+            //'X-RapidAPI-Key': 'f61a0d4d26msh294da13f36ec372p1cf486jsn8bdd561d2abf'    
+            'X-RapidAPI-Key': '66226860e2msh4e1050e1fe0bacbp1d125ejsnf96434540f41'
         }
     };
     
